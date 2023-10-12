@@ -1,4 +1,4 @@
-## Exercise 5: Compute area of Circle
+# Exercise 5: Compute area of Circle
 
 #Input the radius
 print("Area or Circumference of a Circle")
