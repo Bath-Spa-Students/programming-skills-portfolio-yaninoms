@@ -2,9 +2,10 @@
 
 # Assigning strings
 string1 = 'My'
-string2 = ' nname'
+string2 = ' name'
 string3 = ' is'
 string4 = ' Yani'
 
+# Output
 string_con = string1+string2+string3+string4
 print(string_con)
