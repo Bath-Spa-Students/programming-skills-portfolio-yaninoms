@@ -1,7 +1,9 @@
-# Exercise 4
+# Exercise 4: Stages of Life
 
+# Assigning age
 age = 18
 
+# If-elif-else conditions
 if age < 2:
     print("You're still a baby.")
 elif age < 4:
