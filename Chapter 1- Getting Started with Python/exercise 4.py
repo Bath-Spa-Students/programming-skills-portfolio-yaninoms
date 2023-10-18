@@ -1,7 +1,7 @@
 ## Exercise 4: Strings Concatination 
 
 #Defining strings
-string1 = "Bath "
+string1 = "Bath " 
 string2 = "Spa "
 string3 = "University"
 
