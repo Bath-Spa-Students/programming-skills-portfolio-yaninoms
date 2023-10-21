@@ -1,5 +1,5 @@
 # Exercise 3: Your Own List 
-
+ 
 #  List of favorite mode of transportation
 fav_transpo = ('public bus', 'metro', 'car')
 
