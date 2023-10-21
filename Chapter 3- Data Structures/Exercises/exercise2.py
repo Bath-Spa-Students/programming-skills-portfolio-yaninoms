@@ -1,5 +1,5 @@
 ## Exercise 2: Greetings 
-
+ 
 # The names
 names = ['Mc', 'Vernan','Jhunnie']
 
