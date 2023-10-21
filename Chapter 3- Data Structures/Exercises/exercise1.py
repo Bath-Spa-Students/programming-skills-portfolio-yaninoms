@@ -1,6 +1,6 @@
 ## Exercise 1: Names 
 
-# The names
+# The names 
 names = ['mc','vernan','jhunnie']
 
 # Printing the names
