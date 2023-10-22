@@ -1,58 +1,46 @@
 ## Exercise 6: Shrinkin
+'''You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
-# Guest Names
+•Start with your program from Exercise 3-5. Add a new line that prints a message saying that you can invite only two people for dinner.
+
+•Use pop() to remove guests from your list one at a time until only two names remain in your list. Each time you pop a name from your list, print a message to that person letting them know you’re sorry you can’t invite them to dinner.
+
+•Print a message to each of the two people still on your list, letting them know they’re still invited.
+
+•Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.   '''
+
+# Initial guest list
 guests = ['mc', 'river', 'jhunnie']
 
-# Inviting the Guests Over
-name = guests[0].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
+# Send dinner invitations
+def send_invitation(guest):
+    print(f"Hey {guest.title()}!, let's have a dinner at 8 PM.")
 
-name = guests[1].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
+for guest in guests:
+    send_invitation(guest)
 
-name = guests[2].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
+# Mc turned down the invitation, so invite Aizzy instead
+guests[guests.index('mc')] = 'aizzy'
 
-name = guests[0].title()
-print(f"\n{name} Replied: Sorry, I can't. I have to finish something.")
+# Send new invitations
+for guest in guests:
+    send_invitation(guest)
 
-# Mc turned down the invitation. Inviting Aizzy instead !
-guests[0] = 'aizzy'
-
-# New Invitations
-name = guests[0].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
-
-name = guests[1].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
-
-name = guests[2].title()
-print(f"Hey {name}!, let's have a dinner at 8 PM.")
-
-print("\t\n The New guest list: \n\t", guests)
-
-# The table didn't arrive in time, sadly, only two guests can be invited. 
+# Limit to two guests
+print("\nThe New guest list:\n", guests)
 print("Sorry, I can only invite two people.")
 
-# Informing the other guests
+# Inform the other guests
+while len(guests) > 2:
+    removed_guest = guests.pop()
+    print(f"Sorry {removed_guest.title()}, there's no space at the table.")
 
-name = guests.pop(2)
-print(f"Sorry {name.title()} there's no space at the table.")
+# Invite the remaining two guests
+for guest in guests:
+    print(f"{guest.title()}, please come to dinner.")
 
-# There should be two people left. Let's invite them.
-name = guests[0].title()
-print(f"{name}, please come to dinner.")
+# Empty out the list
+guests.clear()
 
-name = guests[1].title()
-print(f"{name}, please come to dinner.")
-
-# Empty out the list.
-del (guests[0])
-
-# Prove the list is empty.
+# Prove the list is empty
 print(guests)
-
-
-
-
-
