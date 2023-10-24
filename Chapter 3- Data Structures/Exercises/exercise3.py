@@ -1,4 +1,8 @@
-# Exercise 3: Your Own List 
+ # Exercise 3: Your Own List 
+'''Think of your favorite mode of transportation, such as a motorcycle or a car, and make a list that stores several examples. Use your list
+
+to print a series of statements about these items, such as “I would like to own a Honda motorcycle.”'''
+ 
 
 #  List of favorite mode of transportation
 fav_transpo = ('public bus', 'metro', 'car')
