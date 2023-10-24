@@ -22,6 +22,6 @@ glossary['dictionary'] = 'A collection of key-value pairs.'
 glossary['key'] = 'The first item in a key-value pair in a dictionary.'
 glossary['value'] = 'An item associated with a key in a dictionary.'
 
-# Loop through the updated glossary and print all terms and definitions
+# printing the glossary
 for term, definition in glossary.items():
     print(f"\n{term}: {definition}")
