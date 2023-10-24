@@ -1,5 +1,5 @@
 # Write four strings in different variables and print the output as one string (string concatenation)
-
+ 
 # Assigning strings
 string1 = 'My'
 string2 = ' name'
