@@ -11,5 +11,5 @@ c = float(input('Enter third side: '))
 # Computation of Area
 s = (a + b + c) / 2
 
-# Results
+# Results 
 print(f"The Area of the triangle is {s}")
