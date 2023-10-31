@@ -3,7 +3,7 @@
 # Final Grade results
 
 # enter grade
-'''grade = float(input("Enter Final Grade:"))
+grade = float(input("Enter Final Grade:"))
 
 # result conditions
 result = "You have failed."
@@ -27,7 +27,7 @@ if earning >= 40000:
     else:
        print("VISA DISAPPROVED: Sorry your reason of travel is not approved.")
 else:
-   print("VISA DISAPPROVED: Your earning is less than required.")'''
+   print("VISA DISAPPROVED: Your earning is less than required.")
 
 
    
