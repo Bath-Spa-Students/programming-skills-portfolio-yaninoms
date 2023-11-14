@@ -60,3 +60,8 @@ print("Alphabetical order:", places_to_visit)
 places_to_visit.sort(reverse=True)
 print("Reverse alphabetical order:", places_to_visit)
 
+
+
+
+
+

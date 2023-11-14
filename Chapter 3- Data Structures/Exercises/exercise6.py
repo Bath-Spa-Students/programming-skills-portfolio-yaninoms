@@ -44,3 +44,5 @@ guests.clear()
 
 # Prove the list is empty
 print(guests)
+
+
