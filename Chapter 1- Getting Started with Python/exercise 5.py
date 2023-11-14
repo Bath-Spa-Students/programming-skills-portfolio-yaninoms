@@ -12,3 +12,4 @@ area = PI*radius*radius
 
 #Result
 print("The area is %.2f" %area)
+
