@@ -12,3 +12,8 @@ quote= "You're on your own now, but the thing is, you're on your own now!"
 
 # Printing Results
 print(f'{author} once said, "{quote}"')
+
+
+
+
+
