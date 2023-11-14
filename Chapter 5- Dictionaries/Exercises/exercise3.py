@@ -25,3 +25,12 @@ glossary['value'] = 'An item associated with a key in a dictionary.'
 # printing the glossary
 for term, definition in glossary.items():
     print(f"\n{term}: {definition}")
+
+
+
+
+
+
+
+
+

@@ -24,3 +24,7 @@ for river in rivers.keys():
 print("\n The countries included in the dictionary are:")
 for country in rivers.values():
     print(f"- {country.title()}")
+
+
+
+    

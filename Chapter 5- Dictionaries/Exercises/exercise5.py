@@ -4,9 +4,9 @@
 
 # listing the pets and their owners
 pets = [
-    {"kind":"Dog","owner": "Alekz"},
+    {"kind":"Dog","owner": "Gab"},
     {"kind":"Cat","owner": "Sam"},
-    {"kind":"Cat","owner": "Yani"},
+    {"kind":"Cat","owner": "Irish"},
     {"kind":"Cat","owner": "Seif"},
     {"kind":"Hamster","owner": "Denise"},
 ]
@@ -18,4 +18,13 @@ for pet in pets:
     owner = pet["owner"]
     # print
     print(f"The pet is a {kind} and the owner's name is {owner}.")
+
+
+
+
+
+
+
+
+
 
