@@ -13,3 +13,5 @@ s = (a + b + c) / 2
 
 # Results 
 print(f"The Area of the triangle is {s}")
+
+
