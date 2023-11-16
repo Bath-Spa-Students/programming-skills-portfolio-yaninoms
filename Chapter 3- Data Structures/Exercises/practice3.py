@@ -8,3 +8,6 @@ names = ['Einstein', 'Newton', 'Copernicus','Kepler']
 for name in names:
     # to print the list
     print(name)
+
+
+    

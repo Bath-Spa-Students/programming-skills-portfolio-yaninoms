@@ -10,3 +10,4 @@ while 20 in lists1:
     lists1.remove(20)
 # print new list
 print(lists1)
+
